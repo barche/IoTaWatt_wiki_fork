@@ -1,3 +1,5 @@
+Home
+
 About IoTaWatt
 
 Project Status
