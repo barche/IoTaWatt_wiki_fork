@@ -1,11 +1,4 @@
 ## Welcome to the IoTaWatt wiki!
 
-### Contents:
-* About IoTaWatt
-* Project Status
-* Installation
-* Configuration
-* Status Display
-* Graph application
-* Edit Application
+Use the navigation links in the sidebar to find out more about IoTaWatt.
 
