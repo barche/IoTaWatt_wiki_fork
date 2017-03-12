@@ -6,6 +6,8 @@ Project Status
 
 [Connecting to WiFi](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-WiFi)
 
+
+
 Configuration
 
 Status Display
