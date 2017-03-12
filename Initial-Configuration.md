@@ -4,3 +4,13 @@ After successful startup, you can connect to the device with your web browser an
 
 ![config top buttons](http://iotawatt.com/Images/config_bigideas.gif)
 
+Click Device and Web Server.
+
+![configure device](http://iotawatt.com/Images/config_device.gif)
+
+You can change the device name to another 8 character name, or leave it IoTaWatt.  Remember, from now on, this(.local) will be the name that you will use to access the device from your your browser.
+
+Set your local time zone relative to UTC time.  All of the measurements are time stamped using UTC, but the log messages and various reporting apps will use this factor to show the data in local time.
+
+Configuring any Web Service will be covered in a later section and should remain "none" at this point.
+
