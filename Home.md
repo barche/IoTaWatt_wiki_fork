@@ -2,6 +2,8 @@
 
 Use the navigation links in the sidebar to find out more about IoTaWatt.
 
+This WiKi is a work in progress and is intended for a limited audience with experience in similar devices.  More details will be added later.
+
 This has to be said:
 
 ##Warning! Potentially Life Threatening Electrical Shock Hazard.
