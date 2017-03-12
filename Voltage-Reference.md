@@ -14,11 +14,11 @@ Initially, the VT defaults to a "generic" transformer. Check the pull-down list 
 
 ### calibration:
 
-Now click calibrate->**voltage**:
+Now click calibrate: **voltage**:
 
 ![Calibrate voltage](http://iotawatt.com/Images/config_voltage_cal.gif)
 
-Follow the instructions on the page. Increase or decrease the "cal" factor until the voltage shown settles down and is a pretty good match with your reference meter. It's not possible to match exactly.  .2V in a 120V installation is 0.2% variation.  Your meter accuracy is 1% at best, probably less.  Just get the two to jump around the same set of fractional digits.
+Follow the instructions on the page. Increase or decrease the "cal" factor until the voltage shown settles down and is a pretty good match with your reference meter. It's not possible to match exactly.  .2V in a 120V installation is 0.2% variation.  A very good meter accuracy is 1% at best.  Just try to get the two to jump around the same set of fractional digits.
 
 As instructed on the page, click save to record the calibration factor, then save again from the edit channel screen.  I recommend then clicking "commit and Restart" to update the IoTaWatt and restart using the new value.
 
