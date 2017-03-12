@@ -14,3 +14,6 @@ Set your local time zone relative to UTC time.  All of the measurements are time
 
 Configuring any Web Service will be covered in a later section and should remain "none" at this point.
 
+Click **save** then **Commit and Restart** at the top.  Your changes will be saved and the device will restart.
+
+After the lights indicate successful restart, restart the config app by refreshing your browser screen.  Remember, if you changed the name of your device, you will need to enter the new url: _yournewname_.local.
