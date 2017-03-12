@@ -14,6 +14,8 @@ Configuration
 
 Status Display
 
+Connecting to eMonCMS
+
 Graph application
 
 Edit Application 
