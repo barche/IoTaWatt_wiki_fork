@@ -8,6 +8,8 @@ Project Status
 
 [Device Configuration](https://github.com/boblemaire/IoTaWatt/wiki/Device-Configuration)
 
+[Reference Voltage Calibration](https://github.com/boblemaire/IoTaWatt/wiki/Reference-Voltage-Calibration)
+
 Configuration
 
 Status Display
