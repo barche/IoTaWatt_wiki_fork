@@ -24,8 +24,7 @@ As instructed on the page, click save to record the calibration factor, then sav
 
 After restart, click the Status button to display the voltage:
 
-
-[Voltage Status](http://iotawatt.com/Images/status_voltage.gif)
+![Voltage Status](http://iotawatt.com/Images/status_voltage.gif)
 
 Check that the voltage displayed is still in the ball park.  If not, repeat the calibration procedure.
 
