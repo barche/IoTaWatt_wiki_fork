@@ -4,7 +4,7 @@ For accurate measurements, the VT input must be calibrated. To do this, you will
 
 While running the config app, click the "Configure Inputs" button:
 
-![Voltaga Status](http://iotawatt.com/Images/status_voltage_only.gif)
+![Voltage Status](http://iotawatt.com/Images/status_voltage_only.gif)
 
 Click on the "0" to edit the voltage channel:
 
