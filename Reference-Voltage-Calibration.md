@@ -24,8 +24,6 @@ As instructed on the page, click save to record the calibration factor, then sav
 
 After restart, click the Status button to display the voltage:
 
-![Voltage Status](http://iotawatt.com/Images/status_voltage.gif)
-
 Check that the voltage displayed is still in the ball park.  If not, repeat the calibration procedure.
 
 Once calibration is complete and verified, you will not need to do it again unless you change your VT transformer.  The IoTaWatt has a very accurate internal calibration reference and will maintain its accuracy indefinitely. You should have no further need for the voltmeter.
