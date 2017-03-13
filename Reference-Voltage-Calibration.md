@@ -24,7 +24,7 @@ As instructed on the page, click save to record the calibration factor, then sav
 
 After restart, click the Status button to display the voltage:
 
-![Voltage Status](http://iotawatt.com/Images/status_voltage.gif)
+![Voltage Status](iotawatt.com/Images/status_voltage.gif)
 
 (gotta fix the 0.0Hz. Only happens when there's no CTs configured)
 
