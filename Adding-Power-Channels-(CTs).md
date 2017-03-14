@@ -50,5 +50,5 @@ These are probably the easiest type of CT to configure, however they contain an 
 
 ###Generic Type CT
 
-You will recall that this is the initial model designation for a CT when a new channel is added.  Its also a drop-down choice when editing a CT channel.  With this model selected, you must input the calibration factor _cal_ and the phase shift of the CT that is connected.  This method of CT specification is intended for the sophisticated user who knows how to develop these numbers.  For their benefit, the _cal_ factor is the primary amps corresponding to a 1V input to the channel.  The cal factor is typically computed by dividing the "turns ratio" of the CT by the burden resistor value.
+You will recall that this is the initial model designation for a CT when a new channel is added.  Its also a drop-down choice when editing a CT channel.  With this model selected, you can specify any calibration factor _cal_ and phase shift for the CT.  This method is intended for a user who knows how to develop these numbers.  For their benefit, the _cal_ factor is the primary amps corresponding to a 1V input to the channel.  The cal factor is typically computed by dividing the "turns ratio" of the CT by the burden resistor value.
 
