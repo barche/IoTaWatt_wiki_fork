@@ -1,6 +1,8 @@
 A prime component of electrical power is voltage.  Also, the AC line frequency is the heartbeat of the IoTaWatt.  A reliable and accurate AC voltage reference is very important. You should have installed the device with a 9-12Vac voltage reference transformer plugged into the channel zero 5mm power jack. The initial configuration has this channel pre-configured as a generic "VT" or voltage-transformer. Your lights are blinking on the device because it is rhythmically sampling that voltage.
 
-For accurate measurements, the VT input must be calibrated. To do this, you will need to have a decent voltmeter that can measure your AC line voltage.  The IoTaWatt is capable of very accurate voltage measurements, but the actual accuracy will depend on the accuracy of the reference used in this step.
+For accurate measurements, the VT input must be calibrated. If your IoTaWatt was supplied as a calibrated VT/IoTaWatt pair, you're good to go.  Calibration has been done and this step isn't necessary. If not already calibrated, or you have installed a new voltage transformer, you will need to perform this simple procedure.
+
+Beg, borrow or steal a decent voltmeter that can measure your AC line voltage.  The IoTaWatt is capable of very accurate voltage measurements, but the actual accuracy will depend on the accuracy of the reference used in this step.
 
 While running the config app, click the "Configure Inputs" button:
 
