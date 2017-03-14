@@ -14,6 +14,22 @@ The only additional recommendation is that all of the CTs be oriented the same w
 
 ### Configuring the Input Channels
 
+At this point, you should have the IoTaWatt up and running with the voltage channel connected, configured, and calibrated. You are using the config app in a browser connected to your WiFi network.  Click the _Configure Inputs_ button.
 
+![Config Inputs](http://iotawatt.com/Images/config_inputs.gif)
+
+Click the drop-down menu _Add Channels_ and choose the channel that you want to add to the configuration. Lets say we chose channel 4.
+
+![Config Chan 4](http://iotawatt.com/Images/config_chan4.gif)
+
+The channel is added and the app enters channel edit mode, where you specify the model and other details about the CT connected to this particular channel.  But first, it is helpful to name the channel by typing a name in the name box. You can just use "Chan 4" or something more meaningful like "Kitchen" or "Living Room".
+
+Next there is a drop-down menu to select the type of input channel this is.  At this point, we will stick to CT.
+
+The next drop-down box is the model of the CT.  It will be _generic_, but you probably have a CT that is in the dropdown list, so click peruse the drop-down list and look for your CT.  Lets say you have an SCT013-000 (a popular, inexpensive CT that is widely available).  Click on SCT013-000.
+
+![Config chan4 sct013-000](http://iotawatt.com/Images/config_chan4_sct013-000.gif)
+
+Notice that now there is a box to specify the _burden_ resistor value.  You should know the value of the burden on each of your IoTaWatt channels.  Enter burden value and a _save_ option should be added to the row of buttons.
 
 
