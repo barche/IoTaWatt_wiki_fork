@@ -10,7 +10,7 @@ Project Status
 
 [Reference Voltage Calibration](https://github.com/boblemaire/IoTaWatt/wiki/Reference-Voltage-Calibration)
 
-Configuration
+[Adding Power Channel CTs](https://github.com/boblemaire/IoTaWatt/wiki/Adding-Power-Channels-(CTs))
 
 Status Display
 
