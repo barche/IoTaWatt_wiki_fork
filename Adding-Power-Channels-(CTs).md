@@ -1,0 +1,2 @@
+Power channels measure the current flow through a circuit and combine that with the voltage to develop the power used, expressed in Watts.  Current is measured with a _current transformer_ hereafter referred to as a CT.  They come in a various capacities, physical connection type, and electrical output.  An excellent reference to learn more about these factors, see this tutorial at [OpenEnergyMonitor.org](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/introduction).
+
