@@ -40,15 +40,15 @@ Click _save_.
 
 That's it.  The screen returns to the complete list of inputs where you can add more channels, or you can press _Commit and Restart_ at the top to update the configuration file on the IoTaWatt and restart it using the newly configured channels. If you need to change anything about an existing channel, just click on it's channel number button and edit the contents.
 
-***Other types of CTs
+###Other types of CTs
 
 We just configured a _current type_ CT and specified the burden value of that IoTaWatt channel.  As mentioned at the top, there are different types of CTs, and some require other parameters to be specified:
 
-***Voltage Type CTs
+###Voltage Type CTs
 
 These are probably the easiest type of CT to configure, however they contain an integral burden resistor, so must be connected to an IoTaWatt channel with no on-board burden, or the on-board burden must be removed.  To configure one of these (A typical model would be the SCT013-030), just select it from the drop-down list and click _save_.
 
-***Generic Type CT
+###Generic Type CT
 
 You will recall that this is the initial model designation for a CT when a new channel is added.  Its also a drop-down choice when editing a CT channel.  With this model selected, you must input the calibration factor _cal_ and the phase shift of the CT that is connected.  This method of CT specification is intended for the sophisticated user who knows how to develop these numbers.  For their benefit, the _cal_ factor is the primary amps corresponding to a 1V input to the channel.  The cal factor is typically computed by dividing the "turns ratio" of the CT by the burden resistor value.
 
