@@ -50,6 +50,5 @@ These are probably the easiest type of CT to configure, however they contain an 
 
 ***Generic Type CT
 
-You will recall that this is the initial model designation for a CT when a new channel is added.  Its also a drop-down choice when editing a CT channel.  With this model selected, you must input the calibration factor _cal_ and the phase shift of the CT that is connected.  This method of CT specification is intended for the sophisticated user who knows how to develop these numbers.  For their benefit, the _cal_ factor is the primary amps corresponding to a 1V input to the channel.  The cal factor is typically computed by dividing the "turns ratio" of the CT by the burden resistor value. For example, the SCT013-000 has a turns ratio of 2000, and when connected to a channel with a 24 ohm burden, the calibration factor would be 2000 / 24 = 83.33.  You will notice that is the _cal_ value that was computed automatically when channel 4 was configured above.
+You will recall that this is the initial model designation for a CT when a new channel is added.  Its also a drop-down choice when editing a CT channel.  With this model selected, you must input the calibration factor _cal_ and the phase shift of the CT that is connected.  This method of CT specification is intended for the sophisticated user who knows how to develop these numbers.  For their benefit, the _cal_ factor is the primary amps corresponding to a 1V input to the channel.  The cal factor is typically computed by dividing the "turns ratio" of the CT by the burden resistor value.
 
-***
