@@ -8,9 +8,7 @@ Project Status
 * [Reference Voltage Calibration](https://github.com/boblemaire/IoTaWatt/wiki/Reference-Voltage-Calibration)
 * [Adding Power Channel CTs](https://github.com/boblemaire/IoTaWatt/wiki/Adding-Power-Channels-(CTs))
 * [Input Channel Status Display](https://github.com/boblemaire/IoTaWatt/wiki/Input-Channel-Status)
-Connecting to eMonCMS
-
-Graph application
-
-Edit Application 
+* Connecting to eMonCMS
+* Graph application
+* Edit Application 
 
