@@ -10,7 +10,7 @@ While running the config app, click the "Configure Inputs" button:
 
 Click on the "0" to edit the voltage channel:
 
-![Edit VT](http://iotawatt.com/Images/config_edit_vt.gif)
+![Edit VT](http://iotawatt.com/Images/config_edit_vt_1.gif)
 
 Initially, the VT defaults to a "generic" transformer. Check the pull-down list of devices to see if your particular device is listed.  If it is, select it and skip to the calibration procedure below. The generic entry is a reasonable starting point that will get you in the ball park for a 9-12Vac adapter in a 120V installation.  If your country is 240V double it to 20.   
 
@@ -18,7 +18,7 @@ Initially, the VT defaults to a "generic" transformer. Check the pull-down list 
 
 Now click calibrate: **voltage**:
 
-![Calibrate voltage](http://iotawatt.com/Images/config_voltage_cal.gif)
+![Calibrate voltage](http://iotawatt.com/Images/config_voltage_cal_1.gif)
 
 Follow the instructions on the page. Increase or decrease the "cal" factor until the voltage shown settles down and is a pretty good match with your reference meter. It's not possible to match exactly.  .2V in a 120V installation is 0.2% variation.  A very good meter accuracy is 1% at best.  Just try to get the two to jump around the same set of fractional digits.
 
