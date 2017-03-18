@@ -6,7 +6,7 @@ Beg, borrow or steal a decent voltmeter that can measure your AC line voltage.  
 
 While running the config app, click the "Configure Inputs" button:
 
-![Voltage Status](http://iotawatt.com/Images/config_inputs.gif)
+![Voltage Status](http://iotawatt.com/Images/config_inputs_1.gif)
 
 Click on the "0" to edit the voltage channel:
 
