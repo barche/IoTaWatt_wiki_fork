@@ -1,10 +1,10 @@
 ### What is a power channel?
 
-Power channels measure the current flow through a circuit and combine that with the voltage to measure the current power, expressed in watts, and over time energy used, expressed in watt-hours.  Current is measured with a _current transformer_ hereafter referred to as a CT.  They come in a various capacities, physical connection type, and electrical output.  To learn more about CTs, visit this excellent reference at [OpenEnergyMonitor.org](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/introduction).
+Power channels measure the current flow through a circuit and combine that with the voltage to measure power, expressed in watts, and to accumulate energy used, expressed in watt-hours.  Current through a circuit is measured indirectly by installing a passive sensor, called a _current transformer_ (CT), around one of the conductors in the circuit. CTs come in a various capacities, physical connection type, and electrical output.  To learn more about CTs, visit this excellent reference at [OpenEnergyMonitor.org](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/introduction).
 
-The good news is that IoTaWatt supports a wide variety of available CTs, and many can be configured simply by clicking on the model.  Most IoTaWatt devices will have burden resistors installed on the input channels, and you will need to specify the values of those resistors when configuring each channel.  As a practical matter, we will assume that your device has 24ohm burden resistors.
+The good news is that IoTaWatt supports a wide variety of available CTs, and many can be configured simply by clicking on the model.  Most IoTaWatt devices will have burden resistors installed on the input channels, and you will need to specify the values of those resistors when configuring each channel. For purposes of this tutorial, we will assume that your device has 24ohm burden resistors.
 
-Some CTs, called Voltage-type CTs, have burden resistors built in.  Those must be connected to IoTaWatt inputs that have no burden resistors.  More on this later.
+Some CTs, called Voltage-type CTs, have burden resistors built in.  Those must be connected to IoTaWatt inputs that have no burden resistors.  More on that later.
 
 ### Connecting the CTs
 
