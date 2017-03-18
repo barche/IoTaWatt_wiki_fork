@@ -14,7 +14,7 @@ The recent average number of times the IoTaWatt sampled input channels. The maxi
 
 The time (hh:mm:ss) that the IoTaWatt has been running since it was last restarted.  In general, the IoTaWatt should run indefinitely unless the power fails or it is deliberately restarted. If the running time is always low without and there is no obvious reason for it, there may be a problem that is causing it to restart frequently.  The device is very robust and should not lose more than a few seconds of data during a restart, but the cause of frequent unexplained restarts should be investigated.
 
-####Channel Status
+#### Channel Status
 
 Each of the configured input channels are listed with their associated measurements. Voltage reference channels (typically channel 0) will show the present voltage and AC line frequency.  Power channels will show the present load in watts, and channels with loads above 10 watts will also show the power-factor of that load.
 
