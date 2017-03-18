@@ -16,11 +16,11 @@ The only additional recommendation is that all of the CTs be oriented the same w
 
 At this point, you should have the IoTaWatt up and running with the voltage channel connected, configured, and calibrated. You are using the config app in a browser connected to your WiFi network.  Click the _Configure Inputs_ button.
 
-![Config Inputs](http://iotawatt.com/Images/config_inputs.gif)
+![Config Inputs](http://iotawatt.com/Images/config_inputs_1.gif)
 
 Click the drop-down menu _Add Channels_ and choose the channel that you want to add to the configuration. Lets say we chose channel 4.
 
-![Config Chan 4](http://iotawatt.com/Images/config_chan4.gif)
+![Config Chan 4](http://iotawatt.com/Images/config_chan4_1.gif)
 
 The channel is added and the app enters channel edit mode, where you specify the model and other details about the CT connected to this particular channel.  But first, it is helpful to name the channel by typing a name in the name box. You can just use "Chan 4" or something more meaningful like "Kitchen" or "Living Room".
 
