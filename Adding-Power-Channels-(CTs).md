@@ -28,15 +28,15 @@ Next there is a drop-down menu to select the type of input channel this is.  At 
 
 The next drop-down box is the model of the CT.  It will be _generic_, but you probably have a CT that is in the dropdown list, so click peruse the drop-down list and look for your CT.  Lets say you have an SCT013-000 (a popular, inexpensive CT that is widely available).  Click on SCT013-000.
 
-![Config chan4 sct013-000](http://iotawatt.com/Images/config_chan4_sct013-000.gif)
+![Config chan4 sct013-000](http://iotawatt.com/Images/config_sct013-000_1.gif)
 
 Notice that now there is a box to specify the _burden_ resistor value.  You should know the value of the burden on each of your IoTaWatt channels.  Enter burden value and a _save_ option should be added to the row of buttons.
 
-![config Chan4 Save](http://iotawatt.com/Images/config_chan4_burden.gif)
+![config Chan4 Save](http://iotawatt.com/Images/config_chan4_burden_1.gif)
 
 Click _save_.
 
-![Config Chan4 Done](http://iotawatt.com/Images/config_chan4_done.gif)
+![Config Chan4 Done](http://iotawatt.com/Images/config_chan4_done_1.gif)
 
 That's it.  The screen returns to the complete list of inputs where you can add more channels, or you can press _Commit and Restart_ at the top to update the configuration file on the IoTaWatt and restart it using the newly configured channels. If you need to change anything about an existing channel, just click on it's channel number button and edit the contents.
 
