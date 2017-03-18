@@ -1,3 +1,5 @@
+#### Overview
+
 The configuration app can provide a continuous updating display of the sample rates, running time, voltage, frequency, power and power-factor data that is being collected.  Simply click the **Input Channels Status** button.
 
 ![Input Channels Status](http://iotawatt.com/Images/input_channel_status_1.gif)
