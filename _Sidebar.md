@@ -12,7 +12,7 @@ Project Status
 
 [Adding Power Channel CTs](https://github.com/boblemaire/IoTaWatt/wiki/Adding-Power-Channels-(CTs))
 
-Status Display
+[Input Channel Status Display](https://github.com/boblemaire/IoTaWatt/wiki/Input-Channel-Status)
 
 Connecting to eMonCMS
 
