@@ -44,7 +44,7 @@ That's it.  The screen returns to the complete list of inputs where you can add 
 
 We just configured a _current type_ CT and specified the burden value of that IoTaWatt channel.  As mentioned at the top, there are different types of CTs, and some require other parameters to be specified:
 
-###Voltage Type CTs
+### Voltage Type CTs
 
 These are probably the easiest type of CT to configure, however they contain an integral burden resistor, so must be connected to an IoTaWatt channel with no on-board burden, or the on-board burden must be removed.  To configure one of these (A typical model would be the SCT013-030), just select it from the drop-down list and click _save_.
 
