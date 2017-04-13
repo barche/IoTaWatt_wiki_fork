@@ -2,7 +2,7 @@
 
 Use the navigation links in the sidebar to find out more about IoTaWatt --->
 
-The latest version (2.01) will be posted soon.  It uses an updated and cleaner app with much more functionality.  There is a demo version that you can use to get the look and feel at [http://iotawatt.com](iotawatt.com).
+The latest version (2.01) will be posted soon.  It uses an updated and cleaner app with much more functionality.  There is a demo version that you can use to get the look and feel at [iotawatt.com](http://iotawatt.com).
 
 This WiKi is a work in progress and is intended for a limited audience with experience in similar devices.  More details will be added later.
 
