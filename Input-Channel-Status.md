@@ -16,7 +16,7 @@ The time (hh:mm:ss) that the IoTaWatt has been running since it was last restart
 
 #### Inputs
 
-Each of the configured input channels listed with their associated measurements. Voltage reference channels (typically channel 0) will show the present voltage.  Power channels will show the present load in watts.
+Each of the configured input channels listed with their associated measurements. Voltage reference channels (typically channel 0) will show the present voltage.  Power channels will show the present load in watts. Notice that the "Fridge" watts are in a different color.  That means the CT is installed reversed and is reading negative current.  IoTaWatt is correcting the value and reporting the correct positive value.  The off-color is simply a way to let you know that the CT is reversed.
 
 #### Outputs
 
