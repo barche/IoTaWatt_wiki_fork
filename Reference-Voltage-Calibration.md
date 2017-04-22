@@ -6,27 +6,25 @@ Beg, borrow or steal a decent voltmeter that can measure your AC line voltage.  
 
 While running the config app, click the "Configure Inputs" button:
 
-![Voltage Status](http://iotawatt.com/Images/config_inputs_1.gif)
+![Configure VT](http://iotawatt.com/Images/Config_edit_vt.PNG)
 
 Click on the "0" to edit the voltage channel:
 
-![Edit VT](http://iotawatt.com/Images/config_edit_vt_1.gif)
+![Edit VT](http://iotawatt.com/Images/Config_edit_vt0.PNG)
 
-Initially, the VT defaults to a "generic" transformer. Check the pull-down list of devices to see if your particular device is listed.  If it is, select it and skip to the calibration procedure below. The generic entry is a reasonable starting point that will get you in the ball park for a 9-12Vac adapter in a 120V installation.  If your country is 240V double it to 20.   
+Initially, the VT defaults to a "generic" transformer. Check the pull-down list of devices to see if your particular device is listed.  If it is, select it and skip to the calibration procedure below. The generic entry is a reasonable starting point that will get you in the ball park for a 9-12Vac adapter in a 120V installation.  If your country is 240V double the "cal" entry to 20.   
 
 ### calibration:
 
-Now click calibrate: **voltage**:
+Now click ![Calibrate](http://iotawatt.com/Images/calibrate_button.PNG)
 
-![Calibrate voltage](http://iotawatt.com/Images/config_voltage_cal_1.gif)
+![Calibrate voltage](http://iotawatt.com/Images/Config_vt_calibrate.PNG)
 
 Follow the instructions on the page. Increase or decrease the "cal" factor until the voltage shown settles down and is a pretty good match with your reference meter. It's not possible to match exactly.  .2V in a 120V installation is 0.2% variation.  A very good meter accuracy is 1% at best.  Just try to get the two to jump around the same set of fractional digits.
 
-As instructed on the page, click save to record the calibration factor, then save again from the edit channel screen.  I recommend then clicking "commit and Restart" to update the IoTaWatt and restart using the new value.
+As instructed on the page, click save to record the calibration factor.  The new calibration factor will take effect immediately. Click ![Input Channels Status](http://iotawatt.com/Images/input_channel_status_button.PNG) to display the voltage:
 
-After restart, click the Status button to display the voltage:
-
-![Voltage Status](http://iotawatt.com/Images/status_voltage_1.gif)
+![Voltage Status](http://iotawatt.com/Images/input_status_vt.PNG)
 
 Check that the voltage displayed is still in the ball park.  If not, repeat the calibration procedure.
 
