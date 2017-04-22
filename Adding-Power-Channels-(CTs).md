@@ -32,6 +32,8 @@ The next drop-down box is the model of the CT.  It will be _generic_, but you pr
 
 Notice that after selecting a specific device from the table, the input fields for "turns" and "phase" disappear.  That's because those values are known for the listed CTs.  If you have a CT that is not found in the list, you will need specify the "generic" entry and provide the turns-ratio and phase-lead for that CT.
 
+Note the checkbox for "Allow negative power values".  This is typically checked only for mains in an installation with grid-tied solar (net-metering).  Checking this box tells IoTaWatt that it is normal for current to flow backward through this circuit, as when a PV system creates more power than you are using locally and the balance is "exported" to the grid.  When this box is checked IoTaWatt assumes that the CT is installed correctly and will not automatically assume the CT is backwards and correct the result to a positive value.
+
 Press ![Save](http://iotawatt.com/Images/save_button.PNG) to finish.
 
 ![config input 1 listed](http://iotawatt.com/Images/Config_input_1_list.PNG)
