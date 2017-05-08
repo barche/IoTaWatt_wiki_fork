@@ -2,7 +2,7 @@ A prime component of electrical power is voltage.  Also, the AC line frequency i
 
 For accurate measurements, the VT input must be calibrated. If your IoTaWatt was supplied as a calibrated VT/IoTaWatt pair, you're good to go.  Calibration has been done and this step isn't necessary. If not already calibrated, or you have installed a new voltage transformer, you will need to perform this simple procedure.
 
-Beg, borrow or steal a decent voltmeter that can measure your AC line voltage.  The IoTaWatt is capable of very accurate voltage measurements, but the actual accuracy will depend on the accuracy of the reference used in this step.
+You will need a halfway decent voltage reference for this step.  If you don't have a decent true RMS voltmeter and can't borrow one, go out and get a Kill-a-Watt.  They cost less than $20 (some libraries lend them out) and I've found their voltage readings are very accurate. It pretty much matches my Fluke true-rms voltmeter. (Amps and power on the units I tested seem to be a bit low but voltage is great). 
 
 While running the config app, click the "Configure Inputs" button:
 
