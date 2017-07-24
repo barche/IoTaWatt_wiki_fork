@@ -1,8 +1,10 @@
 ### What is a power channel?
 
-Power channels measure the current flow through a circuit and combine that with the voltage to measure power, expressed in watts, and to accumulate energy used, expressed in watt-hours.  Current through a circuit is measured indirectly by installing a passive sensor, called a _current transformer_ (CT), around one of the conductors in the circuit. CTs come in a various capacities, physical connection type, and electrical output.  To learn more about CTs, visit this excellent reference at [OpenEnergyMonitor.org](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/introduction).
+Power channels measure the current flow through a circuit and combine that with the reference voltage to measure power, expressed in watts, and to accumulate energy used, expressed in watt-hours.  Current through a circuit is measured indirectly by installing a passive sensor, called a _current transformer_ (CT), around one of the conductors in the circuit. CTs come in a various capacities, physical connection type, and electrical output.  To learn more about CTs, visit this excellent reference at [OpenEnergyMonitor.org](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/introduction).
 
 The good news is that IoTaWatt supports a wide variety of available CTs, and many can be configured simply by clicking on the model.  Most IoTaWatt devices will have burden resistors installed on the input channels, and the value of those resistors will have been pre-configured or you will have specified them in the Configure Device section. For purposes of this tutorial, we will assume that your device has 24ohm burden resistors.
+
+IotaWatt is designed to use 3.5mm stereo jacks for CT input. There are a few standard CTs available with that connector, and [OpenEnergyMonitor](https://openenergymonitor.org/) has a selection in different current ranges available in their online store.  You can also get screw terminal-to-3.5mm jack adapters on Amazon and on Ebay.
 
 Some CTs, called Voltage-type CTs, have burden resistors built in.  Those must be connected to IoTaWatt inputs that have no burden resistors. That is an advanced topic not covered in this tutorial.
 
@@ -51,4 +53,6 @@ These are probably the easiest type of CT to configure, however they contain an 
 ### Generic Type CT
 
 You will recall that this is the initial model designation for a CT when a new channel is added.  Its also a drop-down choice when editing a CT channel.  With this model selected, you can specify any calibration factor _cal_ and phase shift for the CT.  This method is intended for a user who knows how to develop these numbers.  For their benefit, the _cal_ factor is the primary amps corresponding to a 1V input to the channel.  The cal factor is typically computed by dividing the "turns ratio" of the CT by the burden resistor value.  If the input has a burden resistor specified, you need will specify the turns ratio of the CT and the calibration factor will be computed.
+
+Basic installation and configuration are essentially done now.  Use the [Input Channel Status Display](https://github.com/boblemaire/IoTaWatt/wiki/Input-Channel-Status) to see what's happening, and [Connecting to eMonCMS](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-eMonCMS) to setup logging to the Emoncms service.
 
