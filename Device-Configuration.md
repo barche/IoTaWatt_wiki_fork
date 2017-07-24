@@ -1,6 +1,6 @@
-Successful startup will be indicated by alternating flashing of the red and blue leds on the ESP8266 module, or more accurately, by the absence of failure which is indicated by a single flashing red led about once per second. 
+Successful startup will be indicated by a dull green glow on the LED.  If the LED is off, or blinking a three color sequence, see the [Troubleshooting](https://github.com/boblemaire/IoTaWatt/wiki/Troubleshooting) section.
 
-After successful startup, you can connect to the device with your web browser and run the configuration app. Use the url: iotawatt.local to run the app, or if your device has been renamed, use that name.local.  The configuration app starts with a row buttons:
+After successful startup, you can connect to the device with your web browser and run the configuration app. Use the url: iotawatt.local to run the app, or if your device has been renamed, use that name.local.  The configuration app starts with a row of buttons:
 
 ![Config Main Menu](http://iotawatt.com/Images/config_main_menu.PNG)
 
