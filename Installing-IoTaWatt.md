@@ -1,10 +1,3 @@
-Because the schematic is open and the software easily configured, different IoTaWatt devices can be built and work fine with the software.  What should be common is that the device should have a 5V USB power supply and support some number of input channels.  This tutorial will describe the version 2.2 IoTaWatt ADC shield implementation with AdaFruit feather ESP8266 and Adalogger boards.  It looks like this:
-![Image of Two Layer IoTaWatt](http://iotawatt.com/Images/double.png)
+The current revision of IotaWatt is tailored to working with a hardware offering developed in collaboration with [OpenEnergyMonitor](https://community.openenergymonitor.org/) (OEM).  The schematic for the latest version of the hardware is available on this GitHub site.  This tutorial illustrates the specific hardware implementation that will be offered through OEM, but should apply to any device built to the schematic and running the latest software release. The generic device looks like this:
 
-Connect a 9-12V AC reference voltage transformer to the 5mm power plug.
-
-Insert a 16GB microSDHC card (preloaded with files from GitHub SDcard directory).
-
-Connect to a 5V microUSB power supply.
- 
  
