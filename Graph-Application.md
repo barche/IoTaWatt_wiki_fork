@@ -17,7 +17,7 @@ Press the Voltage, Power, and Energy tabs under **Feeds** to list your IotaWatt 
 
 Notice that the graph covers a 24 hour period. That's the default. You can select the period using the D, W, M, Y buttons at the top, and you can move the period left or right and zoom in or out. 
 
-Back to this graph. It reveals that average power is about 500 watts. To be precise, the mean power is 595 watts and the total power for the day was 14,300 watt-hours (14.3Kwh) as indicated in the feed statistics at the bottom. Wondering what might be causing those spikes at various times throughout the day, lets lay another input channel on top.
+Back to this graph. It reveals that average power is about 500 watts. To be precise, the mean power is 595 watts and the total power for the day was 14,300 watt-hours (14.3Kwh) as indicated in the feed statistics at the bottom. Wondering what might be causing those spikes at various times throughout the day, lets lay some other input channels on top.
 
 ![Graph Multi Channel](http://iotawatt.com/Images/graphmultichannel.JPG)  
 
