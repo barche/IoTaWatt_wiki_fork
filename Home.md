@@ -2,8 +2,7 @@
 
 Use the navigation links in the sidebar to find out more about IoTaWatt --->
 
-The Wiki has been updated to describe the latest version (2.01) which has a new look and feel and configures IoTaWatt dynamically. There is a demo version of the configuration app at [iotawatt.com](http://iotawatt.com).
-
+The current revision of IotaWatt is tailored to working with a hardware offering developed in collaboration with [OpenEnergyMonitor](https://community.openenergymonitor.org/) (OEM).  The schematic for the latest version of the hardware (version 4) is available on this GitHub site.  This tutorial illustrates the specific hardware implementation that will be offered through OEM, but should apply to any device built to the schematic and running the latest software release (version 2). 
 ***
 
 ### **Warning! Potentially Life Threatening Electrical Shock Hazard.**
