@@ -14,7 +14,7 @@ The number of input channels should be 15 for IotaWatt version 4 Hardware.
 
 Set your local time zone relative to UTC time.  All of the measurements are time stamped using UTC, but the log messages and various reporting apps will use this factor to show the data in local time.
 
-The configure burden resistors button will allow specification of any burden resistors that are soldered to your board.  The default configuration in this Git specifies 24ohm burden resistors for all inputs.  If your board has another configuration, click this button and specify the values for your particular custom hardware.
+The configure burden resistors button will allow specification of the burden resistors that are soldered to your board. Your device should be preconfigured and you should not need to go there.  If you have changed the resistors or built your own board with different values, click this button and specify the values for your particular custom hardware.
 
 Click **save**. Your changes will be saved.   If you changed the name of your device, it will restart when you press save and you will need to restart the configuration application from [Device name].local.
 
