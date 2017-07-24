@@ -10,6 +10,6 @@
 * [Configuring Outputs](https://github.com/boblemaire/IoTaWatt/wiki/Configuring-Output-Channels)
 * [Connecting to eMonCMS](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-eMonCMS)
 * [Troubleshooting](https://github.com/boblemaire/IoTaWatt/wiki/Troubleshooting)
-* Graph application
+* [Graph Application](https://github.com/boblemaire/IoTaWatt/wiki/Graph-Application)
 * Edit Application 
 
