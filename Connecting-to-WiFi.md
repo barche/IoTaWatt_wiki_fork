@@ -1,6 +1,8 @@
 When the device powers up, it attempts to connect to the last WiFi network used. Although the device can run without WiFi, a connection must be established to run the configuration utility, if the real time clock is not set or if logging to an external server like Emoncms is desired. It is strongly recommended to connect the device to a WiFi network that has a reliable internet connection.
 
-If the device has never been connected to a WiFi network (new), or the last used network is not available, the ESP8266 will start up in AP (access point) mode. This state is indicated when the LED flashes the three color sequence RED-GREEN-GREEN.  It will have a recognizable SSID of iota + a unique 8 digit number.  Connect to it using a smartphone or tablet. It will ask for a password, which is "iotawatt". After connecting, a page will be rendered allowing you to select (or specify) your network SSID and access key.
+If the device has never been connected to a WiFi network (new), or the last used network is not available, the ESP8266 will start up in AP (access point) mode. This state is indicated when the LED flashes the three color sequence RED-GREEN-GREEN.  It will have a recognizable SSID of iota + a unique 8 digit number.  Connect to it using a smartphone or tablet. It will ask for a password.
+
+The device password for WiFi configuration is the device name as specified in the configuration app.  New IotaWatt devices have the default name "IotaWatt".  The password is case sensitive, so be sure to capitalize the I and W. After connecting, a page will be rendered allowing you to select (or specify) your network SSID and access key.
 
 Once connected, the name of the new WiFi network will be saved, and the device will continue its startup procedure. If the device displays another three color LED sequence, see [Troubleshooting](https://github.com/boblemaire/IoTaWatt/wiki/Troubleshooting)
 
