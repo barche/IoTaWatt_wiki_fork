@@ -20,7 +20,7 @@ Set your local **Time Zone** relative to UTC time.  All of the measurements are 
 * BETA - Latest production firmware.
 * ALPHA - Recently released firmware with the latest features - and the latest bugs.
 
-IotaWatt checks the IotaWatt.com site for new software regularly, and the update process takes less than a minute.  The new firmware is digitally signed.
+IotaWatt checks the IotaWatt.com site for new software regularly. The update process takes less than a minute and the new firmware is authenticated with a digital signature from IotaWatt.
 
 The **Configure Burden Resistors** button will allow specification of the burden resistors that are soldered to your board. Your device should be preconfigured and you should not need to go there.  If you have changed the resistors or built your own board with different values, click this button and specify the values for your particular custom hardware.
 
