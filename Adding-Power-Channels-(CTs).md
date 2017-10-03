@@ -2,15 +2,15 @@
 
 Power channels measure the current flow through a circuit and combine that with the reference voltage to measure power, expressed in watts, and to accumulate energy used, expressed in watt-hours.  Current through a circuit is measured indirectly by installing a passive sensor, called a _current transformer_ (CT), around one of the conductors in the circuit. CTs come in a various capacities, physical connection type, and electrical output.  To learn more about CTs, visit this excellent reference at [OpenEnergyMonitor.org](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/introduction).
 
-The good news is that IoTaWatt supports a wide variety of available CTs, and many can be configured simply by clicking on the model.  Most IoTaWatt devices will have burden resistors installed on the input channels, and the value of those resistors will have been pre-configured or you will have specified them in the Configure Device section. For purposes of this tutorial, we will assume that your device has 24ohm burden resistors.
+The good news is that IoTaWatt supports a wide variety of readily available CTs, and many can be configured simply by clicking on the model. Standard IoTaWatt devices have burden resistors installed on the input channels, and the value of those resistors will have been pre-configured or you will have specified them in the Configure Device section. For purposes of this tutorial, we will assume that your device has 24ohm burden resistors.
 
-IotaWatt is designed to use 3.5mm stereo jacks for CT input. There are a few standard CTs available with that connector, and [OpenEnergyMonitor](https://openenergymonitor.org/) has a selection in different current ranges available in their online store.  You can also get screw terminal-to-3.5mm jack adapters on Amazon and on Ebay.
+IotaWatt is designed to use 3.5mm stereo jacks (headphone jacks) to connect the CTs. There are a few standard CTs available with that connector, and [OpenEnergyMonitor](https://openenergymonitor.org/) has a selection available in their online store.  You can also get screw terminal-to-3.5mm jack adapters on Amazon and on Ebay.
 
 Some CTs, called Voltage-type CTs, have burden resistors built in.  Those must be connected to IoTaWatt inputs that have no burden resistors. That is an advanced topic not covered in this tutorial.
 
 ### Connecting the CTs
 
-This tutorial does not cover physical installation of the CTs to your electrical circuits.  That should be done by someone familiar with electrical wiring.  Your qualified installer will know how to do this.
+This tutorial does not cover physical installation of the CTs to your electrical circuits.  That should be done by someone familiar with electrical wiring.  Your qualified installer will know how to do this. The 3.5mm connectors plug into any of the 14 input channels on the IotaWatt.
 
 The only additional recommendation is that all of the CTs be oriented the same way with respect to current flow.  Most CTs have an arrow or other marking to aid in consistent orientation. Not to worry, in the event some end up backward, IoTaWatt will still work, and will tell you which ones are backward.
 
@@ -28,13 +28,13 @@ The app enters channel edit mode, where you specify the model and other details 
 
 The default type is CT and we will stick with that as input 0 is our VT.
 
-The next drop-down box is the model of the CT.  It will be _generic_, but you probably have a CT that is in the dropdown list, so click the drop-down list and look for your CT.  Lets say you have an SCT019-000 (an inexpensive CT that has a 200 amp capacity suitable for a typical Main in the US).  Click on SCT019-000.
+The next drop-down box is the model of the CT.  Initially it will be _generic_, but you probably have a CT that is in the dropdown list, so click the drop-down list and look for your CT.  Lets say you have an SCT019-000 (an inexpensive CT that has a 200 amp capacity suitable for a typical Main in the US).  Click on SCT019-000.
 
 ![Config input 1 sct019-000](http://iotawatt.com/Images/Config_input_1_device.png)
 
 Notice that after selecting a specific device from the table, the input fields for "turns" and "phase" disappear.  That's because those values are known for the listed CTs.  If you have a CT that is not found in the list, you will need specify the "generic" entry and provide the turns-ratio and phase-lead for that CT.
 
-Note the checkbox for "Allow negative power values".  This is typically checked only for mains in an installation with grid-tied solar (net-metering).  Checking this box tells IoTaWatt that it is normal for current to flow backward through this circuit, as when a PV system creates more power than you are using locally and the balance is "exported" to the grid.  When this box is checked IoTaWatt assumes that the CT is installed correctly and will not automatically assume the CT is backwards and correct the result to a positive value.
+Note the checkbox for "Allow negative power values".  This is typically checked only for mains in an installation with grid-tied solar (net-metering).  Checking this box tells IoTaWatt that it is normal for current to flow backward through this circuit, as when a PV system creates more power than you are using locally and the balance is "exported" to the grid.  When you check this box you are affirming that the CT is installed correctly and that negative power should not be automatically "corrected" to positive.
 
 Press ![Save](http://iotawatt.com/Images/save_button.PNG) to finish.
 
