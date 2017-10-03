@@ -20,7 +20,7 @@ Now click ![Calibrate](http://iotawatt.com/Images/calibrate_button.PNG)
 
 ![Calibrate voltage](http://iotawatt.com/Images/Config_vt_calibrate.PNG)
 
-Follow the instructions on the page. Increase or decrease the "cal" factor until the voltage shown settles down and is a pretty good match with your reference meter. It's not possible to match exactly.  .2V in a 120V installation is 0.2% variation.  A very good meter accuracy is 1% at best.  Just try to get the two to jump around the same set of fractional digits.
+Follow the instructions on the page. Increase or decrease the "cal" factor until the voltage shown settles down and is a pretty good match with your reference meter. It's not possible to match exactly.  .2V in a 120V installation is 0.2% variation.  A very good meter accuracy is 1% at best.  Just try to get the two to dwell around the same set of fractional digits.
 
 As instructed on the page, click save to record the calibration factor.  The new calibration factor will take effect immediately. Click ![Input Channels Status](http://iotawatt.com/Images/input_channel_status_button.PNG) to display the voltage:
 
