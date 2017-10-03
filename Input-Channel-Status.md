@@ -1,7 +1,8 @@
 #### Overview
 
 The configuration app can provide a continuous updating display of the sample rates, running time, voltage, frequency, power and power-factor data that is being collected.  Simply click the **Input Channels Status** button.
-![Status Display](http://iotawatt.com/Images/status_display.PNG)
+
+![Status Display](http://iotawatt.com/Images/Capture2.PNG)
 #### Samples per AC cycle
 
 The recent average of the number of samples that the IoTaWatt collects each time it samples a channel. It will be around 500 if you are in a 60Hz country (As in North America), or 600 if you are in a 50Hz country (As in most of Europe).
