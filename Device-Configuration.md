@@ -6,7 +6,7 @@ After successful startup, you can connect to the device with your web browser an
 
 Click Configure Device.
 
-![Config Device](http://iotawatt.com/Images/Config_device2.JPG)
+![Config Device](http://iotawatt.com/Images/Capture.JPG)
 
 You can change the device name to another 8 character name, or leave it IoTaWatt.  Remember, from now on, [Device name].local will be the name that you will use to access the device from your your browser.
 
