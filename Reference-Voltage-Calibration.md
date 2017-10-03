@@ -24,7 +24,6 @@ Follow the instructions on the page. Increase or decrease the "cal" factor until
 
 As instructed on the page, click save to record the calibration factor.  The new calibration factor will take effect immediately. Click ![Input Channels Status](http://iotawatt.com/Images/input_channel_status_button.PNG) to display the voltage:
 
-![Voltage Status](http://iotawatt.com/Images/Capture.JPG)
 
 Check that the voltage displayed is still in the ball park.  If not, repeat the calibration procedure.
 
