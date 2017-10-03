@@ -12,7 +12,7 @@ You can change the **Device name** to another 8 character name, or leave it IoTa
 
 Set your local **Time Zone** relative to UTC time.  All of the measurements are time stamped using UTC, but the log messages and various reporting apps will use this factor to show the data in local time.
 
-**Auto-update Class** tells IotaWatt whether you want to receive automatic updates of the firmware and what type of updates you are interested in.  The choices are:
+**Auto-update Class** tells IotaWatt if you want to receive automatic updates of the firmware and what type of updates you are interested in.  The choices are:
 
 * NONE - Do not Auto-update this device.
 * MAJOR - only update major releases of the software.  This is recommended.
