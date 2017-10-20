@@ -8,7 +8,7 @@ Click Configure Device.
 
 ![Config Device](https://screenshots.firefoxusercontent.com/images/47e9b7c0-fd80-4e21-bc7d-124145237813.png?download=Screenshot-2017-10-20%20IoTaWatt%20Configuration%20app.png&sig=KWD_M8GC81Em_RH1bdTjdhJqQyI)
 
-You can change the **Device name** to another 8 character name, or leave it IoTaWatt.  Remember, from now on, [Device name].local will be the name that you will use to access the device from your browser, and the name you will need to change to switch to a different WiFi network.
+You can change the **Device name** to another 8 character name, or leave it IotaWatt.  Remember, from now on, [Device name].local will be the name that you will use to access the device from your browser, and the name you will need to change to switch to a different WiFi network.
 
 Set your local **Time Zone** relative to UTC time.  All of the measurements are time stamped using UTC, but the log messages and various reporting apps will use this factor to show the data in local time.
 
