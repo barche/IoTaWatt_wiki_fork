@@ -1,6 +1,6 @@
 ### What is a power channel?
 
-Power channels measure the current flow through a circuit and combine that with the reference voltage to measure power, expressed in watts, and to accumulate energy used, expressed in watt-hours.  Current through a circuit is measured indirectly by installing a passive sensor, called a _current transformer_ (CT), around one of the conductors in the circuit. CTs come in a various capacities, physical connection type, and electrical output.  To learn more about CTs, visit this excellent reference at [OpenEnergyMonitor.org](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/introduction).
+Power channels measure the current flow through a circuit and combine that with the reference voltage to determine power, expressed in watts, and to accumulate energy used, expressed in watt-hours.  Current through a circuit is measured indirectly by installing a passive sensor, called a _current transformer_ (CT), around one of the conductors in the circuit. CTs come in a various capacities, physical connection type, and electrical output.  To learn more about CTs, visit this excellent reference at [OpenEnergyMonitor.org](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/introduction).
 
 The good news is that IoTaWatt supports a wide variety of readily available CTs, and many can be configured simply by clicking on the model. Standard IoTaWatt devices have burden resistors installed on the input channels, and the value of those resistors will have been pre-configured or you will have specified them in the Configure Device section. For purposes of this tutorial, we will assume that your device has 24ohm burden resistors.
 
@@ -12,11 +12,11 @@ Some CTs, called Voltage-type CTs, have burden resistors built in.  Those must b
 
 This tutorial does not cover physical installation of the CTs to your electrical circuits.  That should be done by someone familiar with electrical wiring.  Your qualified installer will know how to do this. The 3.5mm connectors plug into any of the 14 input channels on the IotaWatt.
 
-The only additional recommendation is that all of the CTs be oriented the same way with respect to current flow.  Most CTs have an arrow or other marking to aid in consistent orientation. Not to worry, in the event some end up backward, IoTaWatt will still work, and will tell you which ones are backward.
+The only additional recommendation is that all of the CTs be oriented the same way with respect to current flow.  Most CTs have an arrow or other marking to aid in consistent orientation. Not to worry, in the event some end up backward, IoTaWatt will still work, and will tell you which ones appear to be backward.
 
 ### Configuring the Input Channels
 
-At this point, you should have the IoTaWatt up and running with the voltage channel connected, configured, and calibrated. You are using the config app in a browser connected to your WiFi network.  Click the _Configure Inputs_ button.
+At this point, you should have the IoTaWatt up and running with the voltage channel connected, configured, and calibrated if necessary. You are using the config app in a browser connected to your WiFi network.  Click the _Configure Inputs_ button.
 
 ![Config Inputs](http://iotawatt.com/Images/Config_edit_vt.PNG)
 
@@ -52,7 +52,19 @@ These are probably the easiest type of CT to configure, however they contain an 
 
 ### Generic Type CT
 
-You will recall that this is the initial model designation for a CT when a new channel is added.  Its also a drop-down choice when editing a CT channel.  With this model selected, you can specify any calibration factor _cal_ and phase shift for the CT.  This method is intended for a user who knows how to develop these numbers.  For their benefit, the _cal_ factor is the primary amps corresponding to a 1V input to the channel.  The cal factor is typically computed by dividing the "turns ratio" of the CT by the burden resistor value.  If the input has a burden resistor specified, you need will specify the turns ratio of the CT and the calibration factor will be computed.
+You will recall that this is the initial model designation for a CT when a new channel is added.  Its also a drop-down choice when editing a CT channel.  With this model selected, you must specify additional information depending on the type of CT:
+
+## Current Type CT
+
+Current type CTs are typically described with an output in milliamps (mA).  They have no internal burden resistor.  They must be connected to a standard IoTaWatt input channel that has a burden resistor specified.  For these CTs, you will be asked to specify the "Turns:".  This is the ratio of primary current(what you are measuring)/secondary current (what is presented to IoTaWatt).  Most manufacturers publish the turns ratio for their device.  Typically the primary/secondary currents are printed on the device.  A YHCT SCT013-000 is marked 100A/50mA.  That's 100/.050 = 2000 Turns Ratio.
+
+## Voltage Type CT
+
+Voltage type CTs are typically decribed with an output in volts (V).  They have an internal burden resistor and must be connected to an IoTaWatt input that has had the internal burden resistor removed and specified as zero in the device configuration burden menu.  IoTaWatt will ask for a "Cal:" factor.  This is the current in amps that corresponds to 1 volt of output from the CT.  An example of this is the SCT013-050 from YHDC.  It is marked 50A/1V, so the "Cal:" is 50.  Simple enough.
+
+## Phase
+
+Both of the generic CT types above will also provide a place to specify "Phase:". Representative samples of the CTs in the model list have been tested to determine the phase lead value. If you have a generic CT a good rule of thumb would be to use 2.0 for a split core CT (one that snaps onto a wire), and 0.5 for solid core CTs (Basically a solid doughnut that you pass the conductor through).
 
 Basic installation and configuration are essentially done now.  Use the [Input Channel Status Display](https://github.com/boblemaire/IoTaWatt/wiki/Input-Channel-Status) to see what's happening, and [Connecting to eMonCMS](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-eMonCMS) to setup logging to the Emoncms service.
 
