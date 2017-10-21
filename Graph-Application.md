@@ -11,7 +11,7 @@ From the configuration app press ![Run Local Graph App](http://iotawatt.com/Imag
 
 ![Empty Graph](http://iotawatt.com/Images/graphblank.JPG)
 
-Press the Voltage, Power, and Energy tabs under **Feeds** to list your IotaWatt channels. Select the Power tab and then select one or more of your channels listed there. Selecting Total_Power (actually an output channel that is the sum of Main_1 and Main_2) we get the following graph.
+Press the Voltage, Power, and Energy tabs under **Feeds** to list your IotaWatt input and output channels. Select the Power tab and then select one or more of your channels listed there. Selecting Total_Power (actually an output channel that is the sum of Main_1 and Main_2) we get the following graph.
 
 ![Total Power Graph](http://iotawatt.com/Images/graphtotalpower.JPG)
 
@@ -23,7 +23,7 @@ Back to this graph. It reveals that average power is about 500 watts. To be prec
 
 Now the story unfolds.  Most of the 1000 watt spikes are cycles of a point of use electric water heater in the Kitchen (Kitche_HW).  The big spike around 9pm is the Oven/Stove circuit, and the rest of the spikes seem to line up with kitchen appliances.
 
-That's just a sample of the power of the graphic presentation possible both locally and with essentially the same tool on Emoncms.org.  Practically speaking, those power spikes are not the meat-and-potatoes of home energy use.  Othe circuits reveal the contribution of workhorse appliances like the refrigerator, freezer, heat-pump (not active this day), clothes dryer, computer and office machines.  Kwh can be plotted as well, and compared to the whole. With 14 input channels, its possible to divide household usage into manageable components.
+That's just a sample of the power of the graphic presentation possible both locally and with essentially the same tool on Emoncms.org.  Practically speaking, those power spikes are not the meat-and-potatoes of home energy use.  Other circuits reveal the contribution of workhorse appliances like the refrigerator, freezer, heat-pump (not active this day), clothes dryer, computer and office machines.  Kwh can be plotted as well, and compared to the whole. With 14 input channels, its possible to divide household usage into manageable components.
 
 
 
