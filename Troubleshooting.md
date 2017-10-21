@@ -8,7 +8,7 @@ This typically means that the device is connected and working properly.
 
 ### Not Illuminated
 
-under virtually all circumstances, the led should be illuminated.  If is not, the most probable cause is that there is 5VDC supply.  The power supply may be faulty or the USB plug may not be inserted all the way.  Check these things first.
+under virtually all circumstances, the led should be illuminated.  If is not, the most probable cause is that there is no 5VDC supply.  The power supply may be faulty or the USB plug may not be inserted all the way.  Check these things first.
 Try unplugging the 5VDC USB supply and reconnecting.  Try a different 5VDC supply if available.  If all else fails, a more serious problem with the device must be considered. Consult the supplier or someone who can troubleshoot electronic the hardware.
 
 ### Dull Red Glow
