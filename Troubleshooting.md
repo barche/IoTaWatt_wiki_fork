@@ -27,5 +27,5 @@ IoTaWatt uses a repeating three color LED pattern to indicate various circumstan
 
 IoTaWatt is having trouble connecting to the WiFi network.
 If this is a new IoTaWatt, or the network has changed, you will need to [https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-WiFi](specify a new network).
-If the network is down, or unavailable for some other reason, IoTaWatt will continue to try to connect indefinitely. After an initial period, if connection is not established, the LED will change to a [https://github.com/boblemaire/IoTaWatt/wiki/Troubleshooting/_edit#dull-red-glow](dull red glow).
+If the network is down, or unavailable for some other reason, IoTaWatt will continue to try to connect indefinitely. After an initial period, if connection is not established, the LED will change to a [https://github.com/boblemaire/IoTaWatt/wiki/Troubleshooting#dull-red-glow](dull red glow).
 
