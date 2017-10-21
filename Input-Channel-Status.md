@@ -5,7 +5,7 @@ The configuration app can provide a continuous updating display of the sample ra
 ![Status Display](http://iotawatt.com/Images/Capture2.JPG)
 #### Samples per AC cycle
 
-The recent average of the number of samples that the IoTaWatt collects each time it samples a channel. It will be around 630 if you are in a 60Hz country (As in North America), or 750 if you are in a 50Hz country.
+The recent average of the number of samples that the IoTaWatt collects each time it samples a channel. It will be around 630 if you are in a 60Hz country (As in the USA), or 750 if you are in a 50Hz country.
 
 #### AC Cycles sampled per second
 
