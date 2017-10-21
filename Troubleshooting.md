@@ -26,6 +26,20 @@ IoTaWatt uses a repeating three color LED pattern to indicate various circumstan
 #### Red-Green-Green
 
 IoTaWatt is having trouble connecting to the WiFi network.
-If this is a new IoTaWatt, or the network has changed, you will need to[specify a new network](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-WiFi).
-If the network is down, or unavailable for some other reason, IoTaWatt will continue to try to connect indefinitely. After an initial period, if connection is not established, the LED will change to a [dull red glow](https://github.com/boblemaire/IoTaWatt/wiki/Troubleshooting#dull-red-glow) [https://github.com/boblemaire/IoTaWatt/wiki/Troubleshooting#dull-red-glow](dull red glow).
+If this is a new IoTaWatt, or the network has changed, you will need to [specify a new network](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-WiFi).
+Otherwise, wait several minutes and the LED pattern should change to a new code.  Follow the advice for that code.
+
+#### Green-Red-Red
+
+IoTaWatt is having trouble accessing the SDcard inside the device.  This typically happens during a restart of the device. You will need to power off the device and open it up by removing the four screws located under the rubber feet.  Check that the SDcard is firmly seated in the socket and retry.
+
+If problem persists, your card may have failed. You can try to insert the card into a computer that accepts SD cards to see if it can be read.  If so, the problem is probably the IoTaWatt SD card socket and the device will need to be replaced.  The good news is that the card should work in a replecement device and pick up where you left off with all historical data intact.
+
+If your card cannot be read by another device, it is probably the card itself. Unfortunately, these things do fail from time-to-time. To be sure, insert any other available SDcard and try to restart.  If the error indication changes to something else, it is probably a failure of the Sdcard.  Sadly, you will need to obtain a new one and initialize it with the files that are in the SD directory on this GitHub project.  All historical data is lost and you will need to reconfigure the device as if were new.
+
+#### red-red-green
+
+The configured WiFi network is unavailable and the real-time-clock is not running.  IoTaWatt can run without WiFi, but it cannot accumulate log data if it doesn't know what time it is, and it sets the real-time-clock from the internet. Restart and configure to use another WiFi network.
+
+
 
