@@ -1,22 +1,25 @@
 A prime component of electrical power is voltage.  Also, the AC line frequency is the heartbeat of the IoTaWatt.  A reliable and accurate AC voltage reference is very important. You should have installed the device with a 9-12Vac voltage reference transformer plugged into the channel zero 5mm power jack. The initial configuration has this channel pre-configured as a generic "VT" or voltage-transformer. Your lights are blinking on the device because it is rhythmically sampling that voltage.
 
-For accurate measurements, the VT input must be calibrated. If your IoTaWatt was supplied as a calibrated VT/IoTaWatt pair, you're good to go.  Calibration has been done and this step isn't necessary. If not already calibrated, or you have installed a new voltage transformer, you should perform this simple procedure.
-
-You will need a halfway decent voltage reference for this step.  If you don't have a decent true RMS voltmeter and can't borrow one, go out and get a Kill-a-Watt.  They cost less than $20 (some libraries lend them out) and I've found their voltage readings are quite accurate. It pretty much matches my Fluke true-rms voltmeter. (Amps and power on the units I tested seem to be a bit low but voltage is great). 
-
-While running the config app, click the "Configure Inputs" button:
+At this point, IoTaWatt doesn't know exactly what VT has been connected, and can only make generalizations about AC reference.  We need to tell it what VT has been used, or supply generic parameters for a VT that it doesn't recognize. While running the config app, click the "Configure Inputs" button:
 
 ![Configure VT](http://iotawatt.com/Images/Config_edit_vt.PNG)
 
 Click on the "0" to edit the voltage channel:
 
-![Edit VT](http://iotawatt.com/Images/Config_edit_vt0.PNG)
+![Edit VT 0](https://screenshots.firefoxusercontent.com/images/22ab7a04-2aaf-48d3-8efe-302e9a07c0e5.png?download=Screenshot-2017-10-21%20IoTaWatt%20Configuration%20app.png&sig=jlfECjEBzfpbZoedOnc7EZowdYo)
+ 
+Click the Model dropdown menu:
 
-Initially, the VT defaults to a "generic" transformer. Check the pull-down list of devices to see if your particular device is listed.  If it is, select it and skip to the calibration procedure below. The generic entry is a reasonable starting point that will get you in the ball park for a 9-12Vac adapter in a 120V installation.  If your adapter is not listed and your country is 240V select the "generic240V" entry.
+![Model Dropdown Menu](http://iotawatt.com/Images/Screenshot51.png)
 
-### calibration:
+If your make and model is listed, select it from the list.  At this point, you can just click SAVE and the standard calibration for your VT will be used.  That calibration should be good for all but the most discerning users.  If you have access to a very good voltmeter or other reliable high accuracy voltage reference, you can fine tune with the calibration procedure below, but for average users, you should be good to go on to the next step [Adding Power Channel CTs](https://github.com/boblemaire/IoTaWatt/wiki/Adding-Power-Channels-(CTs))
 
-Now click ![Calibrate](http://iotawatt.com/Images/calibrate_button.PNG)
+Initially, the VT defaults to a "generic" transformer. If your VT wasn't listed in the dropdown above, this is a reasonable starting point that will get you in the ball park for your 9-12Vac adapter. If your country is 230V or 240V select "generic240V".  Now you must perform the calibration procedure below.
+
+### Calibration
+You will need a halfway decent voltage reference for this step.  If you don't have a decent true RMS voltmeter and can't borrow one, go out and get a Kill-a-Watt.  They cost less than $20 (some libraries lend them out) and I've found their voltage readings are quite accurate. 
+
+click ![Calibrate](http://iotawatt.com/Images/calibrate_button.PNG)
 
 ![Calibrate voltage](http://iotawatt.com/Images/Config_vt_calibrate.PNG)
 
