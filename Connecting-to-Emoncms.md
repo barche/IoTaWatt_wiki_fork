@@ -10,9 +10,9 @@ After establishing an account, run the IoTaWatt configuration application and se
 
 ![Config Web Server](http://iotawatt.com/Images/Config_emoncms_1.png)
 
-Currently there are two choices, "none" and "Emoncms".  Choose Emoncms. 
+Choose Emoncms. 
 
-![Config emoncms](http://iotawatt.com/Images/Config_emoncms_2.png)
+![Config emoncms](https://screenshots.firefoxusercontent.com/images/4db8b4c6-bb31-4765-9751-1a8752f51771.png)
 
 Here you will specify how IoTaWatt is to upload its data to Emoncms. 
 
@@ -24,10 +24,19 @@ Here you will specify how IoTaWatt is to upload its data to Emoncms.
 
 **server URL** This is the URL of the emoncms.org server.  It defaults to the Emoncms.org website, but the software is open, so you may maintain your own server (software on GitHub) or you may buy one of the OpenEnergy.org products that run a version of the software on a raspberry-pi.
 
-**api key** emoncms requires a 32 character hexadecimal key to authorize posting to an account.  Once you establish your account, locate the read-write api key and copy/paste or type it in to this field.
+**api key** emoncms requires a 32 character hexadecimal key to authorize posting to an account.  Once you establish your account, locate the read-write api key and copy/paste or type it into this field.
+
+**Emoncms userid** By specifying this optional value, you instruct IoTaWatt to use a secure encrypted protocol to send data to Emoncms.  There is no downside to doing this, and it is recommended. Your userid is a four or five digit number located in the "My Account" section of the site.
 
 Now click "Save" and IoTaWatt should begin sending data to your Emoncms account.  To discontinue logging, deconfigure Emoncms by selecting "none" in Web Service Type.
 
-IoTaWatt uploads the current voltage or power corresponding to all of the input channels in each post. You will configure Emoncms (follow their instructions on the website) to save only what you want to keep in "feeds".  Setting up and configuring the Emoncms account is well documented on the Emoncms.org site.
+IoTaWatt uploads the current voltage or power corresponding to all of the input channels in each post. You can configure Emoncms (follow their instructions on the website) to save only what you want to keep in "feeds".  Setting up and configuring the Emoncms account is well documented on the Emoncms.org site.
+
+Another way to customize the data sent to Emoncms is to use the **Emoncms Inputs** list at the bottom of the configuration screen.  This list is very similar to the **Configure Outputs** section, except rather than calculate named values that can be viewed in the status screen or displayed in the graph application, you specify how to calculate the individual inputs to Emoncms using the same calculator interface.
+
+Initially, these fields correspond to each of the IoTaWatt inputs. By editing this list, you can change the values that are sent, delete specific values, or add additional computed values to be sent.
+
+The one distinctive feature of this list vs the outputs list is that the names must be numeric values between 1 and 99.  The name of an entry corresponds to the Emoncms input "key" value. When editing the various fields, if you add a new entry,  with the same number as an existing entry, or change an entry to the same number as an existing entry, it will replace the existing entry. Each time you save an entry, the list will be reordered.
+
 
 
