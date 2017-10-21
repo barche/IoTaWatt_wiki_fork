@@ -9,7 +9,7 @@
 * [Input Channel Status Display](https://github.com/boblemaire/IoTaWatt/wiki/Input-Channel-Status)
 * [Configuring Outputs](https://github.com/boblemaire/IoTaWatt/wiki/Configuring-Output-Channels)
 * [Sending Data to a Web Service](https://github.com/boblemaire/IoTaWatt/wiki/Sending-Data-to-a-Web-Service)
-* [Connecting to eMonCMS](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-eMonCMS)
+* [Connecting to Emoncms](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-eMonCMS)
 * [Troubleshooting](https://github.com/boblemaire/IoTaWatt/wiki/Troubleshooting)
 * [Graph Application](https://github.com/boblemaire/IoTaWatt/wiki/Graph-Application)
 * Edit Application 
