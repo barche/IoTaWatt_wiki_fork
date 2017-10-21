@@ -14,7 +14,7 @@ Click the Model dropdown menu:
 
 If your make and model is listed, select it from the list.  At this point, you can just click SAVE and the standard calibration for your VT will be used.  That calibration should be good for all but the most discerning users.  If you have access to a very good voltmeter or other reliable high accuracy voltage reference, you can fine tune with the calibration procedure below, but for average users, you should be good to go on to the next step [Adding Power Channel CTs](https://github.com/boblemaire/IoTaWatt/wiki/Adding-Power-Channels-(CTs))
 
-If your VT wasn't listed in the dropdown above, this is a reasonable starting point that will get you in the ball park for your 9-12Vac adapter. If your country is 230V or 240V select "generic240V".  Now you must perform the calibration procedure below.
+If your VT wasn't listed in the dropdown above, the generic entry is a reasonable starting point that will get you in the ball park for your 9-12Vac adapter. If your country is 230V or 240V select "generic240V".  Now you must perform the calibration procedure below.
 
 ### Calibration
 You will need a halfway decent voltage reference for this step.  If you don't have a decent true RMS voltmeter and can't borrow one, go out and get a Kill-a-Watt.  They cost less than $20 (some libraries lend them out) and I've found their voltage readings are quite accurate. 
