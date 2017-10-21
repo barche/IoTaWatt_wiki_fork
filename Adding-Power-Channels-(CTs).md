@@ -42,17 +42,9 @@ Press ![Save](http://iotawatt.com/Images/save_button.PNG) to finish.
 
 That's it.  The screen returns to the complete list of inputs where you can add more channels or change the configuration of existing inputs. Each time you press save, the new configuration is sent to IoTaWatt and the changes take effect immediately. If the CTs are installed and connected, you will can see the power displayed in the Input Channel Status screen.
 
-### Other types of CTs
+### Generic CT
 
-We just configured a _current type_ CT and specified the burden value of that IoTaWatt channel.  As mentioned at the top, there are different types of CTs, and some require other parameters to be specified:
-
-### Voltage Type CTs
-
-These are probably the easiest type of CT to configure, however they contain an integral burden resistor, so must be connected to an IoTaWatt channel with no on-board burden (specified as zero in the Configure Burden Resistors screen), When an input has no burden resistor, voltage type CTs will be displayed in the device dropdown menu. To configure one of these (A typical model would be the SCT013-030), just select it from the drop-down list and click _save_.
-
-### Generic Type CT
-
-You will recall that this is the initial model designation for a CT when a new channel is added.  Its also a drop-down choice when editing a CT channel.  With this model selected, you must specify additional information depending on the type of CT:
+We just configured a _current type_ CT that was of a model known to IoTaWatt.  If your particular CT is not one of the dropdown models, you will need to describe the "generic" parameters. You will recall that this is the initial model designation for a CT when a new channel is added.  Its also a drop-down choice when editing a CT channel.  With this model selected, you must specify additional information depending on the type of CT:
 
 ## Current Type CT
 
