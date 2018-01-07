@@ -16,21 +16,22 @@ The only additional recommendation is that all of the CTs be oriented the same w
 
 ### Configuring the Input Channels
 
-At this point, you should have the IoTaWatt up and running with the voltage channel connected, configured, and calibrated if necessary. You are using the config app in a browser connected to your WiFi network.  Click the _Configure Inputs_ button.
+At this point, you should have the IoTaWatt up and running with the voltage channel connected, configured, and calibrated if necessary. You are using the config app in a browser connected to your WiFi network.  Hover over the Setup menu item and click Inputs in the dropdown buttons.
 
-![Config Inputs](http://iotawatt.com/Images/Config_edit_vt.PNG)
+![Config Inputs](https://screenshots.firefoxusercontent.com/images/f51f5425-ae3f-45ec-9d69-13bee4719ff6.png)
 
 This screen should look familiar. We came here to configure the voltage transformer (VT).  Now we will configure current transformers (CTs), to other inputs. To add or edit the CT specification for an input channel, click the channel's number button.  Let's add a CT to channel 1. 
 
-![Config Input 1](http://iotawatt.com/Images/Config_input_1.PNG)
+![Config Input 1](https://screenshots.firefoxusercontent.com/images/052ed1f4-7a1d-4f54-81ab-5811cc30f22c.png)
 
-The app enters channel edit mode, where you specify the model and other details about the CT connected to this particular channel.  But first, it is helpful to name the channel by typing a name in the name box. You can just use the default "Input_1" or something more meaningful like "Kitchen" or "Living Room" or "Main".
+The app enters channel edit mode. Here you specify the model and other details about the CT connected to this particular channel.  But first, it is helpful to name the channel by typing a name in the name box. You can just use the default "Input_1" or something more meaningful like "Kitchen" or "Living Room" or "Main".
 
 The default type is CT and we will stick with that as input 0 is our VT.
 
 The next drop-down box is the model of the CT.  Initially it will be _generic_, but you probably have a CT that is in the dropdown list, so click the drop-down list and look for your CT.  Lets say you have an SCT019-000 (an inexpensive CT that has a 200 amp capacity suitable for a typical Main in the US).  Click on SCT019-000.
 
-![Config input 1 sct019-000](http://iotawatt.com/Images/Config_input_1_device.png)
+![Config input 1 sct019-000](https://screenshots.firefoxusercontent.com/images/6b943e13-e714-4db1-81dc-15999a7a0602.png
+)
 
 Notice that after selecting a specific device from the table, the input fields for "turns" and "phase" disappear.  That's because those values are known for the listed CTs.  If you have a CT that is not found in the list, you will need specify the "generic" entry and provide the turns-ratio and phase-lead for that CT.
 
@@ -38,7 +39,7 @@ Note the checkbox for "Allow negative power values".  This is typically checked 
 
 Press ![Save](http://iotawatt.com/Images/save_button.PNG) to finish.
 
-![config input 1 listed](http://iotawatt.com/Images/Config_input_1_list.PNG)
+![config input 1 listed](https://screenshots.firefoxusercontent.com/images/1dda8fe4-5df0-4684-9d14-a6446ad44d60.png)
 
 That's it.  The screen returns to the complete list of inputs where you can add more channels or change the configuration of existing inputs. Each time you press save, the new configuration is sent to IoTaWatt and the changes take effect immediately. If the CTs are installed and connected, you will can see the power displayed in the Input Channel Status screen.
 
