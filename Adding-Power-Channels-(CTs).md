@@ -59,5 +59,5 @@ Voltage type CTs are typically decribed with an output in volts (V).  They have 
 
 Both of the generic CT types above will also provide a place to specify "Phase:". Representative samples of the CTs in the model list have been tested to determine the phase lead value. If you have a generic CT a good rule of thumb would be to use 2.0 for a split core CT (one that snaps onto a wire), and 0.5 for solid core CTs (Basically a solid doughnut that you pass the conductor through).
 
-Basic installation and configuration are essentially done now.  Use the [Input Channel Status Display](https://github.com/boblemaire/IoTaWatt/wiki/Input-Channel-Status) to see what's happening, and [Connecting to eMonCMS](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-eMonCMS) to setup logging to the Emoncms service.
+Basic installation and configuration are essentially done now.  Use the [Device Status Display](https://github.com/boblemaire/IoTaWatt/wiki/Input-Channel-Status) to see what's happening, and [Connecting to eMonCMS](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-eMonCMS) to setup logging to the Emoncms service.
 
