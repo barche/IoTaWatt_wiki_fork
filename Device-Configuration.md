@@ -2,13 +2,13 @@ Successful startup will be indicated by a dull green glow on the LED.  If the LE
 
 After successful startup, you can connect to the device with your web browser and run the configuration app. Use the url: iotawatt.local to run the app, or if your device has been renamed, use that name.local.  The configuration app starts with a row of buttons:
 
-![Config Main Menu](http://iotawatt.com/Images/config_main_menu.PNG)
+![Config Main Menu](https://screenshots.firefoxusercontent.com/images/322951fb-5bed-4bb1-b26d-c421b5e5a639.png)
 
-Click Configure Device.
+Hover over Setup and then click Device in the dropdown menu.
 
-![Config Device](https://screenshots.firefoxusercontent.com/images/47e9b7c0-fd80-4e21-bc7d-124145237813.png?download=Screenshot-2017-10-20%20IoTaWatt%20Configuration%20app.png&sig=KWD_M8GC81Em_RH1bdTjdhJqQyI)
+![Config Device](https://screenshots.firefoxusercontent.com/images/57f11218-cf18-4b99-b343-5cfbdf8ce16f.png)
 
-You can change the **Device name** to another 8 character name, or leave it IotaWatt.  Remember, from now on, [Device name].local will be the name that you will use to access the device from your browser, and the name you will need to change to switch to a different WiFi network.
+You can change the **Device name** to another 8 character name, or leave it IotaWatt.  Remember, from now on, [Device name].local will be the name that you will use to access the device from your browser, and the Device name will be the password that you must use to configure for a different WiFi network.
 
 Set your local **Time Zone** relative to UTC time.  All of the measurements are time stamped using UTC, but the log messages and various reporting apps will use this factor to show the data in local time.
 
@@ -20,7 +20,7 @@ Set your local **Time Zone** relative to UTC time.  All of the measurements are 
 * BETA - Latest production firmware.
 * ALPHA - Recently released firmware with the latest features - and the latest bugs.
 
-IotaWatt checks the IotaWatt.com site for new software regularly. The update process takes less than a minute and the new firmware is authenticated with a digital signature from IotaWatt.
+IotaWatt checks the IotaWatt.com site for new software regularly. The update process takes less than a minute. New firmware is authenticated with a digital signature from IotaWatt and installed automatically.
 
 The **Configure Burden Resistors** button will allow specification of the burden resistors that are soldered to your board. Your device should be preconfigured and you should not need to go there.  If you have changed the resistors or built your own board with different values, click this button and specify the values for your particular custom hardware.
 
