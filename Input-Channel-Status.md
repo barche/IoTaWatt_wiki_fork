@@ -2,7 +2,7 @@
 
 The configuration app can provide a continuous updating display of the sample rates, running time, voltage, frequency, power and power-factor data that is being collected.  Simply click the **Input Channels Status** button.
 
-![Status Display](http://iotawatt.com/Images/Capture2.JPG)
+![Status Display](https://screenshots.firefoxusercontent.com/images/3a992f9b-97a4-4d4c-acc9-a711c7de54cf.png)
 #### Samples per AC cycle
 
 The recent average of the number of samples that the IoTaWatt collects each time it samples a channel. It will be around 630 if you are in a 60Hz country (As in the USA), or 750 if you are in a 50Hz country.
@@ -23,3 +23,14 @@ Each of the configured input channels listed with their associated measurements.
 
 Outputs are computed using one or more input channel values. See the "Configure Outputs" section to find out more about how to create outputs and specify the way they are calculated. 
 
+### Data Logs
+
+IoTaWatt maintains historical data in data log files. As of this writing, there are two logs: Current and History. Where the two overlap, the data is identical. Queries from the local graph application will automatically select the most appropriate log to retrieve from based on the nature of the request, availability of the data at the requested resolution, and speed of retrieval.
+
+#### Current Log
+
+The Current log maintains sample data at 5 second intervals, and has a capacity of a little over a year. Once full, it wraps around seamlessly and overwrites the oldest data as new entries are created.  The date/time ranges represented in the log are displayed.  If the current log is deleted, a new one will be automatically created. 
+
+#### History Log
+
+The History Log is identical to the Current Log except that it maintains the sample data at 60 second intervals. This log is created from the Current log and if deleted, will be automatically recreated from the Current Log.  
