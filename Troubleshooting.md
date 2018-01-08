@@ -8,7 +8,7 @@ This typically means that the device is connected and working properly.
 
 ### Not Illuminated
 
-under virtually all circumstances, the led should be illuminated.  If is not, the most probable cause is that there is no 5VDC supply.  The power supply may be faulty or the USB plug may not be inserted all the way.  Check these things first.
+under virtually all circumstances, the led should be illuminated.  If not, the most probable cause is that there is no 5VDC supply.  The power supply may be faulty or the USB plug may not be inserted all the way.  Check these things first.
 Try unplugging the 5VDC USB supply and reconnecting.  Try a different 5VDC supply if available.  If all else fails, a more serious problem with the device must be considered. Consult the supplier or someone who can troubleshoot electronic the hardware.
 
 ### Dull Red Glow
@@ -19,7 +19,7 @@ To determine if IotaWatt is connected to the WiFi network, try to run the IotaWa
 
 If the app doesn't start, there is a problem with the WiFi connection. To be sure, restart the IotaWatt by disconnecting the 5VDC power momentarily and then observe the led during startup.  Follow the troubleshooting guide for led indications during startup.
 
-### Blinking Red/Green LED
+### Blinking Red/Green Pattern
 
 IoTaWatt uses a repeating three color LED pattern to indicate various circumstances. They are:
 
@@ -33,13 +33,15 @@ Otherwise, wait several minutes and the LED pattern should change to a new code.
 
 IoTaWatt is having trouble accessing the SDcard inside the device.  This typically happens during a restart of the device. You will need to power off the device and open it up by removing the four screws located under the rubber feet.  Check that the SDcard is firmly seated in the socket and retry.
 
-If problem persists, your card may have failed. You can try to insert the card into a computer that accepts SD cards to see if it can be read.  If so, the problem is probably the IoTaWatt SD card socket and the device will need to be replaced.  The good news is that the card should work in a replecement device and pick up where you left off with all historical data intact.
+If problem persists, your card may have failed. You can try to insert the card into a computer that accepts SD cards to see if it can be read.  If so, the problem is probably the IoTaWatt SD card socket and the device will need to be replaced.  The good news is that the card should work in a replacement device and pick up where you left off with all historical data intact.
 
-If your card cannot be read by another device, it is probably the card itself. Unfortunately, these things do fail from time-to-time. To be sure, insert any other available SDcard and try to restart.  If the error indication changes to something else, it is probably a failure of the Sdcard.  Sadly, you will need to obtain a new one and initialize it with the files that are in the SD directory on this GitHub project.  All historical data is lost and you will need to reconfigure the device as if were new.
+If your card cannot be read by another device, it is probably the card itself. Unfortunately, these things do fail from time-to-time. To be sure, insert any other available SDcard and try to restart.  If the error indication changes to something else, it is probably a failure of the SDcard.  Sadly, you will need to obtain a new one and initialize it with the files that are in the SD directory on this GitHub project.  All historical data is lost and you will need to reconfigure the device as if were new.
 
 #### red-red-green
 
 The configured WiFi network is unavailable and the real-time-clock is not running.  IoTaWatt can run without WiFi, but it cannot accumulate log data if it doesn't know what time it is, and it sets the real-time-clock from the internet. Restart and configure to use another WiFi network.
 
+#### red-red-red
 
+This is the catch-all panic code, where the firmware has detected a situation that should not happen, or is impossible to deal with.  Possibly there will be some diagnostic clues in the message log, or it may require connecting a serial terminal to the USB port to obtain further diagnostics.  Problems in this category are beyond the scope of this document.
 
