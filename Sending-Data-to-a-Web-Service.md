@@ -5,3 +5,5 @@ There are services available that will store uploaded data logger information an
 As of this writing, IotaWatt supports two such web based services: Emoncms and influxDB.  They are described in more detail on their respective pages that follow.  Additionally, support for reporting data via MQTT, is anticipated in the near future.  MQTT can be used to report data to a variety of different subscribers, individually or collectively.
 
 To initiate configuration of any web server, select the Setup Web Server tab and select the particular server you would like to use from the dropdown list. If you previously configured a web service and wish to discontinue reporting there, select NONE from the list.
+
+[Connecting to Emoncms](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-eMonCMS)
