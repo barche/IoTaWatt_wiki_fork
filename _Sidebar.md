@@ -12,5 +12,5 @@
 * [Connecting to Emoncms](https://github.com/boblemaire/IoTaWatt/wiki/Connecting-to-eMonCMS)
 * [Troubleshooting](https://github.com/boblemaire/IoTaWatt/wiki/Troubleshooting)
 * [Graph Application](https://github.com/boblemaire/IoTaWatt/wiki/Graph-Application)
-* Edit Application 
+* [File Manager and Editor](https://github.com/boblemaire/IoTaWatt/wiki/File-Manager-and-Editor) 
 
