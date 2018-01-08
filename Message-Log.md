@@ -1,0 +1,3 @@
+The message log is the IoTaWatt's Diary.  It makes notes about various events that occur, both ordinary and unusual.  These messages can be helpful in understanding what is happening with the device, or to provide insight into why something doesn't appear to be working as it should.
+
+The primary method of accessed the message log is by hovering over the Tools main menu button and clicking the Message Log button.  The config utility will cause your browser to download and display the most recent 10000 characters in the log. You can access the entire log by using the 
