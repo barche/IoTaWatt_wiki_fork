@@ -1,4 +1,4 @@
-As a standalone unit, IoTaWatt is a very capable data logger with an integrated web server/API interface that can provide real-time as well as historical data to any web connected client. That said, there are limitations in that a typical historic query has about a 4 second response time and the web server currently only works with locally connected clients on the same WiFi network.
+As a standalone unit, IoTaWatt is a very capable data logger with an integrated web server/API interface that can provide real-time as well as historical data to any web connected client. That said, there are limitations in that queries can take up to 4 seconds and the web server currently only works with locally connected clients on the same WiFi network. There is also a chance that the local datalogs can be lost along with all of the accumulated history.
 
 There are services available that will store uploaded data logger information and present that data to client applications across the internet. IoTaWatt has the capability to upload its data to those servers while still maintaining all of its own local logging and reporting capabilities.
 
