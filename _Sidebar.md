@@ -14,4 +14,4 @@
 * [Graph Application](https://github.com/boblemaire/IoTaWatt/wiki/Graph-Application)
 * [File Manager and Editor](https://github.com/boblemaire/IoTaWatt/wiki/File-Manager-and-Editor) 
 * [Message Log](https://github.com/boblemaire/IoTaWatt/wiki/Message-Log)
-* [Three Phase Power Measurement](https://github.com/boblemaire/IoTaWatt/wiki/Three-Phase-Power-Monitoring)
+* [Three Phase Power Monitoring](https://github.com/boblemaire/IoTaWatt/wiki/Three-Phase-Power-Monitoring)
