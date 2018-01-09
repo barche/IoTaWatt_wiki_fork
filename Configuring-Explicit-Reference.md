@@ -12,7 +12,7 @@ Now the additional VTs can be configured and calibrated.  Do this in exactly the
 
 Name each of the phases to uniquely identify each reference.  You can use Phase_A, Phase_B etc., or maybe use the color coding of your system to be more descriptive - Voltage_Red, Voltage_Black, Voltage_Blue (US).
 
-Now start adding your CTs.  The twist here is that when more than one VT is configured, an additional selection box is displayed to specify which VT is associated with the phase of that particular CT.
+Now start adding your CTs.  The twist here is that because more than one VT is configured, an additional selection box is displayed to specify which VT is associated with the phase of that particular CT.
 
 ![Three Phase VT selection](https://screenshots.firefoxusercontent.com/images/d367d33f-e58b-4c78-ac48-2fd440fa2af3.png)
 
