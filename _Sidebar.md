@@ -15,4 +15,5 @@
 * [File Manager and Editor](https://github.com/boblemaire/IoTaWatt/wiki/File-Manager-and-Editor) 
 * [Message Log](https://github.com/boblemaire/IoTaWatt/wiki/Message-Log)
 * [Three Phase Power Monitoring](https://github.com/boblemaire/IoTaWatt/wiki/Three-Phase-Power-Monitoring)
-   * [Configuring Explict](https://github.com/boblemaire/IoTaWatt/wiki/Configuring-Explicit-Reference)
+   * [Configuring Explict Reference](https://github.com/boblemaire/IoTaWatt/wiki/Configuring-Explicit-Reference)
+   * [Configuring Derived Reference](https://github.com/boblemaire/IoTaWatt/wiki/Configuring-Derived-Reference)
