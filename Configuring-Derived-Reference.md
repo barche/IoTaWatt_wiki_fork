@@ -6,10 +6,17 @@ This chapter explains how to configure IoTaWatt to use "Derived Reference" measu
 
 Set up your IoTaWatt with the voltage reference VT on whatever leg of the three-phase is convenient.  For purposes of this discussion, we will henceforth call that leg "phase A".  The other two legs will be "phase B" and "phase C".  It's just a big circle anyway, so it's just a matter of where you start.  There are color coding schemes for the phases, but they vary so widely that I'm not going to try to reconcile this scheme with any of them.  That exercise is left to the reader.  The good news is that you really don't have to know what any of the phases are to complete this setup.
 
-Connect CTs to each of the circuits that you want to measure, and configure them as described [here](https://github.com/boblemaire/IoTaWatt/wiki/Adding-Power-Channels-(CTs)).
+Connect CTs to each of the circuits that you want to measure, and configure them as described [here](https://github.com/boblemaire/IoTaWatt/wiki/Adding-Power-Channels-(CTs)). Be sure to orient all of the CTs the same way with respect to whatever polarity indicator they employ. The following instructions may not work as described if any CTs on the derived phases are reversed.
 
 If you've done everything correctly, your IoTaWatt status display should be displaying the correct power for all of the circuits on phase A, and roughly half power for all of the circuits on phases B and C.
 
 Now in the input configuration menu, click the box for "Enable derived three-phase" at the bottom.
 
-(Work in progress - to be continued)
+At this point I would ordinarily insert a screenshot to illustrate, but without an actual three-phase system, I cannot produce anything that would not introduce ambiguities requiring complicated explanation.  So I'll do the thousand words instead of the picture.
+
+The configured input channels should now have "phase:**A**" appended to their descriptions. Now go to the status display and evaluate which of the inputs appear to be showing power that is half what is expected.  Note them and go back to the input configuration screen.
+
+Edit each of the incorrect inputs in turn, changing the "Mains Phase" to phase B.  Now go back to the status display and see which inputs still appear to be half of the expected value, go back to the input menu and change those to phase C.
+
+The status display should now indicate the correct power for all of the phases.
+
