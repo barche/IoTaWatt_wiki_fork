@@ -14,7 +14,7 @@ If you've done everything correctly, your IoTaWatt status display should be disp
 
 Now in the input configuration menu, click the box for "Enable derived three-phase" at the bottom.
 
-At this point I would ordinarily insert a screenshot to illustrate, but without an actual three-phase system, I cannot produce anything that would not introduce ambiguities requiring complicated explanation.  So I'll do the thousand words instead of the picture.
+At this point I would ordinarily insert a screenshot to illustrate, but without an actual three-phase system, I cannot produce anything that wouldn't introduce ambiguities requiring complicated explanation.  So I'll do the thousand words instead of the picture.
 
 The configured input channels should now have "phase:**A**" appended to their descriptions. Now go to the status display and evaluate which of the inputs appear to be showing power that is half what is expected.  Note them and go back to the input configuration screen.
 
