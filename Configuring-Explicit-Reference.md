@@ -1,4 +1,4 @@
-To use Explicit Reference three-phase power measurement, it's necessary to first obtain and install two additional VTs (total of three), and to locate each of them in a receptacle supplied by a unique phase. All of this must be in reasonable proximity to the IoTaWatt such that the VT plugs reach the device.  An adapter is needed to reduce the voltage from the two additional VTs and to output to a 3.5mm stereo jack that can be used in a standard input channel of the IoTaWatt.
+To use Explicit Reference three-phase power measurement, it's necessary to first obtain and install two additional VTs (total of three), and to locate each of them in a receptacle supplied by a unique phase. All of this must be in reasonable proximity to the IoTaWatt such that the VT plugs reach the device.  An adapter is needed to reduce the voltage from the two additional VTs and to output to a 3.5mm stereo jack that can be used in a standard input channel of the IoTaWatt that has the burden resistor removed.
 
 Here's what one such adapter looks like.  These should soon be available from the OEM store, along with various splitters and patch cords needed to connect.
 
