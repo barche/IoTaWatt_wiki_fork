@@ -1,3 +1,5 @@
+(Note: This functionality is available with IoTaWatt release 02_02_28)
+
 As previously explained, real three-phase power measurement requires a reference voltage/phase signal that is in phase with the current signal from the circuit.  That means in three-phase systems, you need three voltage signals, each 120° from the others.  IoTaWatt can accommodate three different VTs, each on a different "leg" of the three-phase system to do this.  In IoTaWatt terminology, that method is called Explicit Reference.
 
 But there's another way to approach the problem, which, while not as exact, can produce pretty good results.  The IoTaWatt can numerically shift a single voltage/phase reference by 120° and 240° to measure power on the additional two legs. Using this method, a three-phase system can be monitored using the exact same equipment as for single phase.
