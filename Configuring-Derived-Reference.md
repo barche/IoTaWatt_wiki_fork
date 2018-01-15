@@ -12,3 +12,4 @@ If you've done everything correctly, your IoTaWatt status display should be disp
 
 Now in the input configuration menu, click the box for "Enable derived three-phase" at the bottom.
 
+(Work in progress - to be continued)
