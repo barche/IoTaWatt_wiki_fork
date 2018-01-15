@@ -27,3 +27,4 @@ Now go back to the status display and see which inputs still appear to be half o
 
 The status display should now indicate the correct power for all of the phases.
 
+One additional point.  Once you configure inputs to indicate mains phase B or C, the "Enable derived three-phase" checkbox will remain set and cannot be turned off unless all of the inputs are reconfigured back to phase A.
