@@ -17,3 +17,4 @@
 * [Three Phase Power Monitoring](https://github.com/boblemaire/IoTaWatt/wiki/Three-Phase-Power-Monitoring)
    * [Configuring Explict](https://github.com/boblemaire/IoTaWatt/wiki/Configuring-Explicit-Reference)
    * [Configuring Derived](https://github.com/boblemaire/IoTaWatt/wiki/Configuring-Derived-Reference)
+   * [Example](https://github.com/boblemaire/IoTaWatt/wiki/Three-Phase-Example)
